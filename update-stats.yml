@@ -17,7 +17,7 @@ jobs:
           go-version: '1.16'
           
       - name: Get repository list
-        run: gh repo list YOUR_USERNAME --json nameWithOwner --limit 10 > repositories.json
+        run: gh repo list DulshanSiriwardhana --json nameWithOwner --limit 10 > repositories.json
 
       - name: Fetch repository language stats
         run: |
